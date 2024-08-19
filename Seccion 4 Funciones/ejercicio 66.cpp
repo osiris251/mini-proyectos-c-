@@ -22,10 +22,10 @@ int main() {
 
 template<class tipo>
 void maximo(tipo a, tipo b, tipo c) {
-	if(a > b && a > c) {
+	if(a >= b && a >= c) {
 		cout<<"El maximo es: "<<a;
 	}
-	else if (b > a && b > c){
+	else if (b >= a && b >= c){
 		cout<<"El maximo es: "<<b;
 	} else {
 		cout<<"El maximo es: "<<c;
